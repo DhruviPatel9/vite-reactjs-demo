@@ -19,7 +19,7 @@ function App(){
     <>
     <div className="appContainer">
       <TodoList/> 
-     {/*<CheckBox/> */}
+     <CheckBox/>
     {/*  <LifeCycleMethod/> */}
     {/* <Unmount /> */}
     {/* <ClassProps /> */}

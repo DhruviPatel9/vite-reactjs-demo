@@ -10,6 +10,8 @@ import ClassProps from "./Props//Classs/ClassProps";
 import FunProps from "./Props/function/FunProps";
 import PropsChange from "./Props/function/PropsChange";
 import PropsUseEffect from"./Hook/useEffect/PropsUseEffect";
+import ColorChangeComponent from"./task/ColorChangeComponent";
+
 
 
 
@@ -17,19 +19,23 @@ import PropsUseEffect from"./Hook/useEffect/PropsUseEffect";
 function App(){
   return(
     <>
-    <div className="appContainer">
-      <TodoList/> 
-     <CheckBox/>
+    <div style={{  
+            height:"100vh",
+            backgroundColor: 'blue'
+          }}>
+    {/*  <TodoList/>  */}
+    {/* <CheckBox/>  */}
     {/*  <LifeCycleMethod/> */}
     {/* <Unmount /> */}
     {/* <ClassProps /> */}
     {/* <FunProps /> */}
     {/* <PropsChange  /> */}
-    <PropsUseEffect />
+   {/* <PropsUseEffect /> */}
+    <ColorChangeComponent/> 
    
      
     </div>
-    <ToastContainer/>
+    {/* <ToastContainer/> */}
     </>
   );
 }
